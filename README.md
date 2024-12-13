@@ -1,4 +1,4 @@
-# pig-problem
+# longevity-problem
 Problem to be completed during Industry Prep - Interview Prep activity time
 
 ## Problem Statement
@@ -9,15 +9,15 @@ For example:
 
 ```py
 [
-  ("Rodrigo y Gabriela", "9 Dead Alive", 2014),
-  ("Shakira", "El Dorado", 2017),
-  ("Janelle Monáe", "The ArchAndroid", 2010),
-  ("Shakira", "Magia", 1991),
-  ("Shakira", "She Wolf", 2009),
-  ("Rodrigo y Gabriela", "11:11", 2009),
-  ("Rodrigo y Gabriela", "Rodrigo y Gabriela", 2006),
-  ("Rodrigo y Gabriela", "Mettavolution", 2019),
-  ("Janelle Monáe", "Dirty Computer", 2018)
+    ("Rodrigo y Gabriela", "9 Dead Alive", 2014),
+    ("Shakira", "El Dorado", 2017),
+    ("Janelle Monáe", "The ArchAndroid", 2010),
+    ("Shakira", "Magia", 1991),
+    ("Shakira", "She Wolf", 2009),
+    ("Rodrigo y Gabriela", "11:11", 2009),
+    ("Rodrigo y Gabriela", "Rodrigo y Gabriela", 2006),
+    ("Rodrigo y Gabriela", "Mettavolution", 2019),
+    ("Janelle Monáe", "Dirty Computer", 2018)
 ]
 ```
 
@@ -30,15 +30,15 @@ Write a function that accepts a list of albums and returns a tuple containing th
 ### Example 1
 ```py
 albums_1 = [
-  ("Rodrigo y Gabriela", "9 Dead Alive", 2014),
-  ("Shakira", "El Dorado", 2017),
-  ("Janelle Monáe", "The ArchAndroid", 2010),
-  ("Shakira", "Magia", 1991),
-  ("Shakira", "She Wolf", 2009),
-  ("Rodrigo y Gabriela", "11:11", 2009),
-  ("Rodrigo y Gabriela", "Rodrigo y Gabriela", 2006),
-  ("Rodrigo y Gabriela", "Mettavolution", 2019),
-  ("Janelle Monáe", "Dirty Computer", 2018)
+    ("Rodrigo y Gabriela", "9 Dead Alive", 2014),
+    ("Shakira", "El Dorado", 2017),
+    ("Janelle Monáe", "The ArchAndroid", 2010),
+    ("Shakira", "Magia", 1991),
+    ("Shakira", "She Wolf", 2009),
+    ("Rodrigo y Gabriela", "11:11", 2009),
+    ("Rodrigo y Gabriela", "Rodrigo y Gabriela", 2006),
+    ("Rodrigo y Gabriela", "Mettavolution", 2019),
+    ("Janelle Monáe", "Dirty Computer", 2018)
 ]
 
 longest_career(albums_1)
@@ -51,10 +51,10 @@ Produces
 ### Example 2
 ```py
 albums_2 = [
-  ("Skylar Kergil", "Tell Me a Story", 2015),
-  ("Lil Nas X", "Old Town Road", 2018),
-  ("Skylar Kergil", "Thank You", 2013),
-  ("Lil Nas X", "Montero", 2021),
+    ("Skylar Kergil", "Tell Me a Story", 2015),
+    ("Lil Nas X", "Old Town Road", 2018),
+    ("Skylar Kergil", "Thank You", 2013),
+    ("Lil Nas X", "Montero", 2021),
 ]
 
 longest_career(albums_2)
